@@ -59,14 +59,50 @@ h1 {
     margin-bottom: 25px;
 }
 
-.instructions {
-    background-color: #e3f2fd;
+/* Learning Objective Section */
+.objective {
+    background-color: #e8f5e9;
     padding: 20px;
     border-radius: 15px;
-    margin: 25px 0;
-    color: #0277bd;
-    font-size: 1.1rem;
+    margin: 20px 0;
+    text-align: left;
+    color: #1b5e20;
+    border-left: 4px solid #4caf50;
+}
+
+.objective h2 {
+    color: #1b5e20;
+    margin-bottom: 10px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+/* Game Rules Section */
+.rules {
+    background-color: #fff3e0;
+    padding: 20px;
+    border-radius: 15px;
+    margin: 20px 0;
+    text-align: left;
+    color: #e65100;
+    border-left: 4px solid #ff9800;
+}
+
+.rules h2 {
+    color: #e65100;
+    margin-bottom: 12px;
+    text-align: center;
+    font-size: 1.4rem;
+}
+
+.rules ol {
+    padding-left: 20px;
+    margin: 10px 0;
     line-height: 1.6;
+}
+
+.rules li {
+    margin: 8px 0;
 }
 
 .btn {
@@ -173,80 +209,5 @@ h1 {
     font-size: 1.1rem;
     border: 2px solid #90caf9;
     border-radius: 12px;
-    background: white;
-    cursor: pointer;
-    transition: all 0.2s;
-    font-weight: bold;
-    color: #0288d1;
-    min-width: 120px;
-}
-
-.option-btn:hover {
-    background: #e3f2fd;
-    transform: translateY(-2px);
-    border-color: #2196f3;
-}
-
-.option-btn:active {
-    transform: translateY(0);
-}
-
-.option-btn.selected {
-    border-color: #2196f3;
-    background: #e3f2fd;
-    box-shadow: 0 4px 8px rgba(33, 150, 243, 0.3);
-}
-
-/* Game Over Screen */
-.result {
-    margin: 30px 0;
-    font-size: 1.4rem;
-    color: #01579b;
-}
-
-.result p {
-    margin-bottom: 20px;
-}
-
-.feedback {
-    padding: 15px;
-    border-radius: 12px;
-    margin-top: 15px;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
-
-.feedback.excellent { 
-    background-color: #e8f5e9; 
-    color: #2e7d32; 
-}
-
-.feedback.good { 
-    background-color: #fff9c4; 
-    color: #f57f17; 
-}
-
-.feedback.practice { 
-    background-color: #ffebee; 
-    color: #c62828; 
-}
-
-@media (max-width: 600px) {
-    .screen {
-        padding: 30px 20px;
-    }
-    
-    h1 {
-        font-size: 2rem;
-    }
-    
-    .option-btn {
-        padding: 12px;
-        font-size: 1rem;
-        min-width: 100px;
-    }
-    
-    .visual-item {
-        font-size: 2rem;
-    }
+    background: white ;
 }
